@@ -114,3 +114,4 @@ We use 3 metrics for the benchmark:
 Images/s and batches/s are self-explanatory. Megapixels/s (MPx) are not usually used but we like this metric as it's input resolution independent.
 
 It's calculated according to the following formula: `(input_width_px * input_height_px * batch_size * n_gpus * n_iterations) / (elapsed_time_s * 10^6)`
+
